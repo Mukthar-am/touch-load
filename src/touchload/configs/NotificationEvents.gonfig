@@ -9,7 +9,7 @@
 		"test": "http://localhost:8080/springwebeg/track/batchdump",
 		"test-batch": "http://localhost:8080/springwebeg/track/batchdump",
 		"test-zip": "http://localhost:8080/springwebeg/track/gzip1",
-		"prod": "https://touch.myntra.com/track",
+		"prod": "https://touch.caffeine.com/track",
 		"prod-test": "http://54.255.78.118:80/track",
 		"prod-test-local": "http://192.168.13.83:3000/track",
 		"message": {
@@ -25,7 +25,7 @@
 				"rn.update": "internal"
 			},
 			"app": {
-				"name": "MyntraRetailAndroid",
+				"name": "caffeineRetailAndroid",
 				"build": 110107,
 				"version": "3.2.0-QA-MA-test"
 			},
@@ -47,9 +47,9 @@
 				"width": 1080
 			},
 			"user": {
-				"customer_id": "loadtest@myntra360.com",
+				"customer_id": "loadtest@caffeine360.com",
 				"is_logged_in": true,
-				"prev_customer_id": "loadtest@myntra360.com",
+				"prev_customer_id": "loadtest@caffeine360.com",
 				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
 			},
 			"event_meta_version": "1.3.0",
@@ -61,7 +61,7 @@
 				"state": "Karnataka"
 			},
 			"payload": {
-				"custLogin": "loadtest@myntra360.com",
+				"custLogin": "loadtest@caffeine360.com",
 				"category": "loadTest",
 				"isLoggedIn": true,
 				"action": "loadTest",
@@ -69,7 +69,7 @@
 				"eventName": "loadTest",
 				"label": "app-launch",
 				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
-				"ruLoginID": "loadtest@myntra360.com",
+				"ruLoginID": "loadtest@caffeine360.com",
 				"offset": -196,
 				"abTest": {
 					"rn.update": "internal"
@@ -134,7 +134,7 @@
 			},
 			"app": {
 				"build": 4.0110133e+07,
-				"name": "MyntraRetailAndroid",
+				"name": "caffeineRetailAndroid",
 				"react_bundle_name": "android-jsbundle-3.6.0",
 				"react_bundle_version": "2.3.0",
 				"version": "3.6.2"
@@ -201,8 +201,8 @@
 				"server_offset": 0,
 				"session_id": "52adfbf1-9875-4127-b6af-e85811ab067d-50a7f7d88f2b491",
 				"session_referrer": {
-					"referer": "http://www.myntra.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772",
-					"url": "http://www.myntra.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772"
+					"referer": "http://www.caffeine.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772",
+					"url": "http://www.caffeine.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772"
 				},
 				"start_time": 1.474800084876e+12
 			},
@@ -255,7 +255,7 @@
 			},
 			"app": {
 				"build": 4.0110133e+07,
-				"name": "MyntraRetailAndroid",
+				"name": "caffeineRetailAndroid",
 				"react_bundle_name": "android-jsbundle-3.6.0",
 				"react_bundle_version": "2.3.0",
 				"version": "3.6.2"
@@ -322,8 +322,8 @@
 				"server_offset": 0,
 				"session_id": "52adfbf1-9875-4127-b6af-e85811ab067d-50a7f7d88f2b491",
 				"session_referrer": {
-					"referer": "http://www.myntra.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772",
-					"url": "http://www.myntra.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772"
+					"referer": "http://www.caffeine.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772",
+					"url": "http://www.caffeine.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772"
 				},
 				"start_time": 1.474800084876e+12
 			},
@@ -376,7 +376,7 @@
 			},
 			"app": {
 				"build": 4.0110133e+07,
-				"name": "MyntraRetailAndroid",
+				"name": "caffeineRetailAndroid",
 				"react_bundle_name": "android-jsbundle-3.6.0",
 				"react_bundle_version": "2.3.0",
 				"version": "3.6.2"
@@ -443,8 +443,8 @@
 				"server_offset": 0,
 				"session_id": "52adfbf1-9875-4127-b6af-e85811ab067d-50a7f7d88f2b491",
 				"session_referrer": {
-					"referer": "http://www.myntra.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772",
-					"url": "http://www.myntra.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772"
+					"referer": "http://www.caffeine.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772",
+					"url": "http://www.caffeine.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772"
 				},
 				"start_time": 1.474800084876e+12
 			},
@@ -461,7 +461,7 @@
 				"rn.update": "internal"
 			},
 			"app": {
-				"name": "MyntraRetailAndroid",
+				"name": "caffeineRetailAndroid",
 				"build": 110107,
 				"version": "3.2.0-QA-MA-test"
 			},
@@ -483,9 +483,9 @@
 				"width": 1080
 			},
 			"user": {
-				"customer_id": "loadtest@myntra360.com",
+				"customer_id": "loadtest@caffeine360.com",
 				"is_logged_in": true,
-				"prev_customer_id": "loadtest@myntra360.com",
+				"prev_customer_id": "loadtest@caffeine360.com",
 				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
 			},
 			"event_meta_version": "1.3.0",
@@ -497,7 +497,7 @@
 				"state": "Karnataka"
 			},
 			"payload": {
-				"custLogin": "loadtest@myntra360.com",
+				"custLogin": "loadtest@caffeine360.com",
 				"category": "loadTest",
 				"isLoggedIn": true,
 				"action": "loadTest",
@@ -505,7 +505,7 @@
 				"eventName": "loadTest",
 				"label": "app-launch",
 				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
-				"ruLoginID": "loadtest@myntra360.com",
+				"ruLoginID": "loadtest@caffeine360.com",
 				"offset": -196,
 				"abTest": {
 					"rn.update": "internal"
@@ -557,7 +557,7 @@
 				"pdp.video": "disabled"
 			},
 			"app": {
-				"name": "MyntraRetailAndroid",
+				"name": "caffeineRetailAndroid",
 				"build": 110107,
 				"version": "3.2.0-QA-MA-test"
 			},
@@ -579,9 +579,9 @@
 				"width": 1080
 			},
 			"user": {
-				"customer_id": "loadtest@myntra360.com",
+				"customer_id": "loadtest@caffeine360.com",
 				"is_logged_in": true,
-				"prev_customer_id": "loadtest@myntra360.com",
+				"prev_customer_id": "loadtest@caffeine360.com",
 				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
 			},
 			"event_meta_version": "1.3.0",
@@ -593,7 +593,7 @@
 				"state": "Karnataka"
 			},
 			"payload": {
-				"custLogin": "loadtest@myntra360.com",
+				"custLogin": "loadtest@caffeine360.com",
 				"category": "loadTest",
 				"isLoggedIn": true,
 				"action": "loadTest",
@@ -601,7 +601,7 @@
 				"eventName": "loadTest",
 				"label": "app-launch",
 				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
-				"ruLoginID": "loadtest@myntra360.com",
+				"ruLoginID": "loadtest@caffeine360.com",
 				"offset": -196,
 				"abTest": {
 					"rn.update": "internal",
@@ -675,7 +675,7 @@
 				"pdp.video": "disabled"
 			},
 			"app": {
-				"name": "MyntraRetailAndroid",
+				"name": "caffeineRetailAndroid",
 				"build": 110107,
 				"version": "3.2.0-QA-MA-test"
 			},
@@ -697,9 +697,9 @@
 				"width": 1080
 			},
 			"user": {
-				"customer_id": "loadtest@myntra360.com",
+				"customer_id": "loadtest@caffeine360.com",
 				"is_logged_in": true,
-				"prev_customer_id": "loadtest@myntra360.com",
+				"prev_customer_id": "loadtest@caffeine360.com",
 				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
 			},
 			"event_meta_version": "1.3.0",
@@ -711,7 +711,7 @@
 				"state": "Karnataka"
 			},
 			"payload": {
-				"custLogin": "loadtest@myntra360.com",
+				"custLogin": "loadtest@caffeine360.com",
 				"category": "loadTest",
 				"isLoggedIn": true,
 				"action": "loadTest",
@@ -719,7 +719,7 @@
 				"eventName": "loadTest",
 				"label": "app-launch",
 				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
-				"ruLoginID": "loadtest@myntra360.com",
+				"ruLoginID": "loadtest@caffeine360.com",
 				"offset": -196,
 				"abTest": {
 					"rn.update": "internal",
@@ -793,7 +793,7 @@
 				"pdp.video": "disabled"
 			},
 			"app": {
-				"name": "MyntraRetailAndroid",
+				"name": "caffeineRetailAndroid",
 				"build": 110107,
 				"version": "3.2.0-QA-MA-test"
 			},
@@ -815,9 +815,9 @@
 				"width": 1080
 			},
 			"user": {
-				"customer_id": "loadtest@myntra360.com",
+				"customer_id": "loadtest@caffeine360.com",
 				"is_logged_in": true,
-				"prev_customer_id": "loadtest@myntra360.com",
+				"prev_customer_id": "loadtest@caffeine360.com",
 				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
 			},
 			"event_meta_version": "1.3.0",
@@ -829,7 +829,7 @@
 				"state": "Karnataka"
 			},
 			"payload": {
-				"custLogin": "loadtest@myntra360.com",
+				"custLogin": "loadtest@caffeine360.com",
 				"category": "loadTest",
 				"isLoggedIn": true,
 				"action": "loadTest",
@@ -837,7 +837,7 @@
 				"eventName": "loadTest",
 				"label": "app-launch",
 				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
-				"ruLoginID": "loadtest@myntra360.com",
+				"ruLoginID": "loadtest@caffeine360.com",
 				"offset": -196,
 				"abTest": {
 					"rn.update": "internal",
@@ -911,7 +911,7 @@
 				"pdp.video": "disabled"
 			},
 			"app": {
-				"name": "MyntraRetailAndroid",
+				"name": "caffeineRetailAndroid",
 				"build": 110107,
 				"version": "3.2.0-QA-MA-test"
 			},
@@ -933,9 +933,9 @@
 				"width": 1080
 			},
 			"user": {
-				"customer_id": "loadtest@myntra360.com",
+				"customer_id": "loadtest@caffeine360.com",
 				"is_logged_in": true,
-				"prev_customer_id": "loadtest@myntra360.com",
+				"prev_customer_id": "loadtest@caffeine360.com",
 				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
 			},
 			"event_meta_version": "1.3.0",
@@ -947,7 +947,7 @@
 				"state": "Karnataka"
 			},
 			"payload": {
-				"custLogin": "loadtest@myntra360.com",
+				"custLogin": "loadtest@caffeine360.com",
 				"category": "loadTest",
 				"isLoggedIn": true,
 				"action": "loadTest",
@@ -955,7 +955,7 @@
 				"eventName": "loadTest",
 				"label": "app-launch",
 				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
-				"ruLoginID": "loadtest@myntra360.com",
+				"ruLoginID": "loadtest@caffeine360.com",
 				"offset": -196,
 				"abTest": {
 					"rn.update": "internal",
@@ -1029,7 +1029,7 @@
 				"pdp.video": "disabled"
 			},
 			"app": {
-				"name": "MyntraRetailAndroid",
+				"name": "caffeineRetailAndroid",
 				"build": 110107,
 				"version": "3.2.0-QA-MA-test"
 			},
@@ -1051,9 +1051,9 @@
 				"width": 1080
 			},
 			"user": {
-				"customer_id": "loadtest@myntra360.com",
+				"customer_id": "loadtest@caffeine360.com",
 				"is_logged_in": true,
-				"prev_customer_id": "loadtest@myntra360.com",
+				"prev_customer_id": "loadtest@caffeine360.com",
 				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
 			},
 			"event_meta_version": "1.3.0",
@@ -1065,7 +1065,7 @@
 				"state": "Karnataka"
 			},
 			"payload": {
-				"custLogin": "loadtest@myntra360.com",
+				"custLogin": "loadtest@caffeine360.com",
 				"category": "loadTest",
 				"isLoggedIn": true,
 				"action": "loadTest",
@@ -1073,7 +1073,7 @@
 				"eventName": "loadTest",
 				"label": "app-launch",
 				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
-				"ruLoginID": "loadtest@myntra360.com",
+				"ruLoginID": "loadtest@caffeine360.com",
 				"offset": -196,
 				"abTest": {
 					"rn.update": "internal",
