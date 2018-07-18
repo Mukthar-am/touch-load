@@ -1,0 +1,10 @@
+.DS_Store
+./.DS_Store
+./*/.DS_Store
+./*/*/.DS_Store
+*.iml
+bin/*
+pkg/*
+src/*.com
+src/*.org
+src/*.in

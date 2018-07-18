@@ -1,0 +1,1126 @@
+{
+	"userintensive": {
+		"timeout": {
+			"max": 900,
+			"min": 300
+		}
+	},
+	"url": {
+		"test": "http://localhost:8080/springwebeg/track/batchdump",
+		"test-batch": "http://localhost:8080/springwebeg/track/batchdump",
+		"test-zip": "http://localhost:8080/springwebeg/track/gzip1",
+		"prod": "https://touch.myntra.com/track",
+		"prod-test": "http://54.255.78.118:80/track",
+		"prod-test-local": "http://192.168.13.83:3000/track",
+		"message": {
+			"template": {
+				"subject": "this is my default subject",
+				"message": "whoops, looks like I forgot to write a body!"
+			}
+		}
+	},
+	"payload": {
+		"low": {
+			"ab_tests": {
+				"rn.update": "internal"
+			},
+			"app": {
+				"name": "MyntraRetailAndroid",
+				"build": 110107,
+				"version": "3.2.0-QA-MA-test"
+			},
+			"device": {
+				"advertising_id": "675438d9-1c4b-456f-a604-d82c46a69552",
+				"build_number": "cancro",
+				"category": "Mobile",
+				"device_id": "6458b202055249a6",
+				"device_year": 2013,
+				"device_year_type": 2,
+				"height": 1920,
+				"imei": "865072028292640",
+				"installation_id": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+				"manufacturer": "Xiaomi",
+				"model_number": "MI 3W",
+				"os": "Android",
+				"os_api_version": 19,
+				"os_version": "4.4.4",
+				"width": 1080
+			},
+			"user": {
+				"customer_id": "loadtest@myntra360.com",
+				"is_logged_in": true,
+				"prev_customer_id": "loadtest@myntra360.com",
+				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
+			},
+			"event_meta_version": "1.3.0",
+			"geo": {
+				"city": "Bengaluru",
+				"country": "India",
+				"lat": 12.90124785,
+				"long": 77.61674922,
+				"state": "Karnataka"
+			},
+			"payload": {
+				"custLogin": "loadtest@myntra360.com",
+				"category": "loadTest",
+				"isLoggedIn": true,
+				"action": "loadTest",
+				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxIevLg",
+				"eventName": "loadTest",
+				"label": "app-launch",
+				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+				"ruLoginID": "loadtest@myntra360.com",
+				"offset": -196,
+				"abTest": {
+					"rn.update": "internal"
+				}
+			},
+			"network": {
+				"bandwidth": "320.8626439680672",
+				"bandwidth_bucket": "MODERATE",
+				"carrier": "Vodafone IN",
+				"ip": "10.0.6.174",
+				"type": "WIFI"
+			},
+			"session": {
+				"auto_id": 783,
+				"server_offset": -196,
+				"session_id": "b6173d32-0174-4204-b0fb-fd1b83b79c3e-6458b2020552MaTouchloadTest",
+				"session_referrer": {},
+				"start_time": 1460527812898
+			},
+			"_t": "LoadTest",
+			"time_stamp": 1460527812970,
+			"event_sequence": 0
+		},
+		"default": [{
+			"ab_tests": {
+				"rn.update": "internal",
+				"search.visual": "enabled",
+				"cart.juspay": "enabled",
+				"lga.shots": "enabled",
+				"nav.guided": "enabled",
+				"search.additionalInfo": "test",
+				"pps": "enabled",
+				"rn.update.ios": "internal",
+				"nav.store": "disabled",
+				"search.sampling": "enabled",
+				"pdp.details": "paragraph",
+				"lgp.cardloadevent": "enabled",
+				"contactus.number": "outside",
+				"lgp.stream": "enabled",
+				"feed.algorithm.ranking": "noDecay",
+				"lgp.personalization.rollout": "enabled",
+				"lgp.rollout.ios": "enabled",
+				"lga.forum": "enabled",
+				"lgp.timeline.cardloadevent": "enabled",
+				"lgp.rollout": "enabled",
+				"d0.newuser": "enabled",
+				"lgp.stream.ios": "disabled",
+				"pdp.forum": "enabled",
+				"pdp.video": "disabled"
+			},
+			"app": {
+				"name": "MyntraRetailAndroid",
+				"build": 110107,
+				"version": "3.2.0-QA-MA-test"
+			},
+			"device": {
+				"advertising_id": "675438d9-1c4b-456f-a604-d82c46a69552",
+				"build_number": "cancro",
+				"category": "Mobile",
+				"device_id": "6458b202055249a6",
+				"device_year": 2013,
+				"device_year_type": 2,
+				"height": 1920,
+				"imei": "865072028292640",
+				"installation_id": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+				"manufacturer": "Xiaomi",
+				"model_number": "MI 3W",
+				"os": "Android",
+				"os_api_version": 19,
+				"os_version": "4.4.4",
+				"width": 1080
+			},
+			"user": {
+				"customer_id": "loadtest@myntra360.com",
+				"is_logged_in": true,
+				"prev_customer_id": "loadtest@myntra360.com",
+				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
+			},
+			"event_meta_version": "1.3.0",
+			"geo": {
+				"city": "Bengaluru",
+				"country": "India",
+				"lat": 12.90124785,
+				"long": 77.61674922,
+				"state": "Karnataka"
+			},
+			"payload": {
+				"custLogin": "loadtest@myntra360.com",
+				"category": "loadTest",
+				"isLoggedIn": true,
+				"action": "loadTest",
+				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxIevLg",
+				"eventName": "loadTest",
+				"label": "app-launch",
+				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+				"ruLoginID": "loadtest@myntra360.com",
+				"offset": -196,
+				"abTest": {
+					"rn.update": "internal",
+					"search.visual": "enabled",
+					"cart.juspay": "enabled",
+					"lga.shots": "enabled",
+					"nav.guided": "enabled",
+					"search.additionalInfo": "test",
+					"pps": "enabled",
+					"rn.update.ios": "internal",
+					"nav.store": "disabled",
+					"search.sampling": "enabled",
+					"pdp.details": "paragraph",
+					"lgp.cardloadevent": "enabled",
+					"contactus.number": "outside",
+					"lgp.stream": "enabled",
+					"feed.algorithm.ranking": "noDecay",
+					"lgp.personalization.rollout": "enabled",
+					"lgp.rollout.ios": "enabled",
+					"lga.forum": "enabled",
+					"lgp.timeline.cardloadevent": "enabled",
+					"lgp.rollout": "enabled",
+					"d0.newuser": "enabled",
+					"lgp.stream.ios": "disabled",
+					"pdp.forum": "enabled",
+					"pdp.video": "disabled"
+				}
+			},
+			"network": {
+				"bandwidth": "320.8626439680672",
+				"bandwidth_bucket": "MODERATE",
+				"carrier": "Vodafone IN",
+				"ip": "10.0.6.174",
+				"type": "WIFI"
+			},
+			"session": {
+				"auto_id": 783,
+				"server_offset": -196,
+				"session_id": "b6173d32-0174-4204-b0fb-fd1b83b79c3e-6458b2020552Test",
+				"session_referrer": {},
+				"start_time": 1460527812898
+			},
+			"_t": "LoadTest",
+			"time_stamp": 1460527812970,
+			"event_sequence": 0
+		}, {
+			"ab_tests": {
+				"rn.update": "internal",
+				"search.visual": "enabled",
+				"cart.juspay": "enabled",
+				"lga.shots": "enabled",
+				"nav.guided": "enabled",
+				"search.additionalInfo": "test",
+				"pps": "enabled",
+				"rn.update.ios": "internal",
+				"nav.store": "disabled",
+				"search.sampling": "enabled",
+				"pdp.details": "paragraph",
+				"lgp.cardloadevent": "enabled",
+				"contactus.number": "outside",
+				"lgp.stream": "enabled",
+				"feed.algorithm.ranking": "noDecay",
+				"lgp.personalization.rollout": "enabled",
+				"lgp.rollout.ios": "enabled",
+				"lga.forum": "enabled",
+				"lgp.timeline.cardloadevent": "enabled",
+				"lgp.rollout": "enabled",
+				"d0.newuser": "enabled",
+				"lgp.stream.ios": "disabled",
+				"pdp.forum": "enabled",
+				"pdp.video": "disabled"
+			},
+			"app": {
+				"name": "MyntraRetailAndroid",
+				"build": 110107,
+				"version": "3.2.0-QA-MA-test"
+			},
+			"device": {
+				"advertising_id": "675438d9-1c4b-456f-a604-d82c46a69552",
+				"build_number": "cancro",
+				"category": "Mobile",
+				"device_id": "6458b202055249a6",
+				"device_year": 2013,
+				"device_year_type": 2,
+				"height": 1920,
+				"imei": "865072028292640",
+				"installation_id": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+				"manufacturer": "Xiaomi",
+				"model_number": "MI 3W",
+				"os": "Android",
+				"os_api_version": 19,
+				"os_version": "4.4.4",
+				"width": 1080
+			},
+			"user": {
+				"customer_id": "loadtest@myntra360.com",
+				"is_logged_in": true,
+				"prev_customer_id": "loadtest@myntra360.com",
+				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
+			},
+			"event_meta_version": "1.3.0",
+			"geo": {
+				"city": "Bengaluru",
+				"country": "India",
+				"lat": 12.90124785,
+				"long": 77.61674922,
+				"state": "Karnataka"
+			},
+			"payload": {
+				"custLogin": "loadtest@myntra360.com",
+				"category": "loadTest",
+				"isLoggedIn": true,
+				"action": "loadTest",
+				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxIevLg",
+				"eventName": "loadTest",
+				"label": "app-launch",
+				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+				"ruLoginID": "loadtest@myntra360.com",
+				"offset": -196,
+				"abTest": {
+					"rn.update": "internal",
+					"search.visual": "enabled",
+					"cart.juspay": "enabled",
+					"lga.shots": "enabled",
+					"nav.guided": "enabled",
+					"search.additionalInfo": "test",
+					"pps": "enabled",
+					"rn.update.ios": "internal",
+					"nav.store": "disabled",
+					"search.sampling": "enabled",
+					"pdp.details": "paragraph",
+					"lgp.cardloadevent": "enabled",
+					"contactus.number": "outside",
+					"lgp.stream": "enabled",
+					"feed.algorithm.ranking": "noDecay",
+					"lgp.personalization.rollout": "enabled",
+					"lgp.rollout.ios": "enabled",
+					"lga.forum": "enabled",
+					"lgp.timeline.cardloadevent": "enabled",
+					"lgp.rollout": "enabled",
+					"d0.newuser": "enabled",
+					"lgp.stream.ios": "disabled",
+					"pdp.forum": "enabled",
+					"pdp.video": "disabled"
+				}
+			},
+			"network": {
+				"bandwidth": "320.8626439680672",
+				"bandwidth_bucket": "MODERATE",
+				"carrier": "Vodafone IN",
+				"ip": "10.0.6.174",
+				"type": "WIFI"
+			},
+			"session": {
+				"auto_id": 783,
+				"server_offset": -196,
+				"session_id": "b6173d32-0174-4204-b0fb-fd1b83b79c3e-6458b2020552Test",
+				"session_referrer": {},
+				"start_time": 1460527812898
+			},
+			"_t": "LoadTest",
+			"time_stamp": 1460527812970,
+			"event_sequence": 0
+		}, {
+			"ab_tests": {
+				"rn.update": "internal",
+				"search.visual": "enabled",
+				"cart.juspay": "enabled",
+				"lga.shots": "enabled",
+				"nav.guided": "enabled",
+				"search.additionalInfo": "test",
+				"pps": "enabled",
+				"rn.update.ios": "internal",
+				"nav.store": "disabled",
+				"search.sampling": "enabled",
+				"pdp.details": "paragraph",
+				"lgp.cardloadevent": "enabled",
+				"contactus.number": "outside",
+				"lgp.stream": "enabled",
+				"feed.algorithm.ranking": "noDecay",
+				"lgp.personalization.rollout": "enabled",
+				"lgp.rollout.ios": "enabled",
+				"lga.forum": "enabled",
+				"lgp.timeline.cardloadevent": "enabled",
+				"lgp.rollout": "enabled",
+				"d0.newuser": "enabled",
+				"lgp.stream.ios": "disabled",
+				"pdp.forum": "enabled",
+				"pdp.video": "disabled"
+			},
+			"app": {
+				"name": "MyntraRetailAndroid",
+				"build": 110107,
+				"version": "3.2.0-QA-MA-test"
+			},
+			"device": {
+				"advertising_id": "675438d9-1c4b-456f-a604-d82c46a69552",
+				"build_number": "cancro",
+				"category": "Mobile",
+				"device_id": "6458b202055249a6",
+				"device_year": 2013,
+				"device_year_type": 2,
+				"height": 1920,
+				"imei": "865072028292640",
+				"installation_id": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+				"manufacturer": "Xiaomi",
+				"model_number": "MI 3W",
+				"os": "Android",
+				"os_api_version": 19,
+				"os_version": "4.4.4",
+				"width": 1080
+			},
+			"user": {
+				"customer_id": "loadtest@myntra360.com",
+				"is_logged_in": true,
+				"prev_customer_id": "loadtest@myntra360.com",
+				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
+			},
+			"event_meta_version": "1.3.0",
+			"geo": {
+				"city": "Bengaluru",
+				"country": "India",
+				"lat": 12.90124785,
+				"long": 77.61674922,
+				"state": "Karnataka"
+			},
+			"payload": {
+				"custLogin": "loadtest@myntra360.com",
+				"category": "loadTest",
+				"isLoggedIn": true,
+				"action": "loadTest",
+				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxIevLg",
+				"eventName": "loadTest",
+				"label": "app-launch",
+				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+				"ruLoginID": "loadtest@myntra360.com",
+				"offset": -196,
+				"abTest": {
+					"rn.update": "internal",
+					"search.visual": "enabled",
+					"cart.juspay": "enabled",
+					"lga.shots": "enabled",
+					"nav.guided": "enabled",
+					"search.additionalInfo": "test",
+					"pps": "enabled",
+					"rn.update.ios": "internal",
+					"nav.store": "disabled",
+					"search.sampling": "enabled",
+					"pdp.details": "paragraph",
+					"lgp.cardloadevent": "enabled",
+					"contactus.number": "outside",
+					"lgp.stream": "enabled",
+					"feed.algorithm.ranking": "noDecay",
+					"lgp.personalization.rollout": "enabled",
+					"lgp.rollout.ios": "enabled",
+					"lga.forum": "enabled",
+					"lgp.timeline.cardloadevent": "enabled",
+					"lgp.rollout": "enabled",
+					"d0.newuser": "enabled",
+					"lgp.stream.ios": "disabled",
+					"pdp.forum": "enabled",
+					"pdp.video": "disabled"
+				}
+			},
+			"network": {
+				"bandwidth": "320.8626439680672",
+				"bandwidth_bucket": "MODERATE",
+				"carrier": "Vodafone IN",
+				"ip": "10.0.6.174",
+				"type": "WIFI"
+			},
+			"session": {
+				"auto_id": 783,
+				"server_offset": -196,
+				"session_id": "b6173d32-0174-4204-b0fb-fd1b83b79c3e-6458b2020552Test",
+				"session_referrer": {},
+				"start_time": 1460527812898
+			},
+			"_t": "LoadTest",
+			"time_stamp": 1460527812970,
+			"event_sequence": 0
+		}, {
+			"ab_tests": {
+				"rn.update": "internal",
+				"search.visual": "enabled",
+				"cart.juspay": "enabled",
+				"lga.shots": "enabled",
+				"nav.guided": "enabled",
+				"search.additionalInfo": "test",
+				"pps": "enabled",
+				"rn.update.ios": "internal",
+				"nav.store": "disabled",
+				"search.sampling": "enabled",
+				"pdp.details": "paragraph",
+				"lgp.cardloadevent": "enabled",
+				"contactus.number": "outside",
+				"lgp.stream": "enabled",
+				"feed.algorithm.ranking": "noDecay",
+				"lgp.personalization.rollout": "enabled",
+				"lgp.rollout.ios": "enabled",
+				"lga.forum": "enabled",
+				"lgp.timeline.cardloadevent": "enabled",
+				"lgp.rollout": "enabled",
+				"d0.newuser": "enabled",
+				"lgp.stream.ios": "disabled",
+				"pdp.forum": "enabled",
+				"pdp.video": "disabled"
+			},
+			"app": {
+				"name": "MyntraRetailAndroid",
+				"build": 110107,
+				"version": "3.2.0-QA-MA-test"
+			},
+			"device": {
+				"advertising_id": "675438d9-1c4b-456f-a604-d82c46a69552",
+				"build_number": "cancro",
+				"category": "Mobile",
+				"device_id": "6458b202055249a6",
+				"device_year": 2013,
+				"device_year_type": 2,
+				"height": 1920,
+				"imei": "865072028292640",
+				"installation_id": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+				"manufacturer": "Xiaomi",
+				"model_number": "MI 3W",
+				"os": "Android",
+				"os_api_version": 19,
+				"os_version": "4.4.4",
+				"width": 1080
+			},
+			"user": {
+				"customer_id": "loadtest@myntra360.com",
+				"is_logged_in": true,
+				"prev_customer_id": "loadtest@myntra360.com",
+				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
+			},
+			"event_meta_version": "1.3.0",
+			"geo": {
+				"city": "Bengaluru",
+				"country": "India",
+				"lat": 12.90124785,
+				"long": 77.61674922,
+				"state": "Karnataka"
+			},
+			"payload": {
+				"custLogin": "loadtest@myntra360.com",
+				"category": "loadTest",
+				"isLoggedIn": true,
+				"action": "loadTest",
+				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxIevLg",
+				"eventName": "loadTest",
+				"label": "app-launch",
+				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+				"ruLoginID": "loadtest@myntra360.com",
+				"offset": -196,
+				"abTest": {
+					"rn.update": "internal",
+					"search.visual": "enabled",
+					"cart.juspay": "enabled",
+					"lga.shots": "enabled",
+					"nav.guided": "enabled",
+					"search.additionalInfo": "test",
+					"pps": "enabled",
+					"rn.update.ios": "internal",
+					"nav.store": "disabled",
+					"search.sampling": "enabled",
+					"pdp.details": "paragraph",
+					"lgp.cardloadevent": "enabled",
+					"contactus.number": "outside",
+					"lgp.stream": "enabled",
+					"feed.algorithm.ranking": "noDecay",
+					"lgp.personalization.rollout": "enabled",
+					"lgp.rollout.ios": "enabled",
+					"lga.forum": "enabled",
+					"lgp.timeline.cardloadevent": "enabled",
+					"lgp.rollout": "enabled",
+					"d0.newuser": "enabled",
+					"lgp.stream.ios": "disabled",
+					"pdp.forum": "enabled",
+					"pdp.video": "disabled"
+				}
+			},
+			"network": {
+				"bandwidth": "320.8626439680672",
+				"bandwidth_bucket": "MODERATE",
+				"carrier": "Vodafone IN",
+				"ip": "10.0.6.174",
+				"type": "WIFI"
+			},
+			"session": {
+				"auto_id": 783,
+				"server_offset": -196,
+				"session_id": "b6173d32-0174-4204-b0fb-fd1b83b79c3e-6458b2020552Test",
+				"session_referrer": {},
+				"start_time": 1460527812898
+			},
+			"_t": "LoadTest",
+			"time_stamp": 1460527812970,
+			"event_sequence": 0
+		}, {
+			"ab_tests": {
+				"rn.update": "internal",
+				"search.visual": "enabled",
+				"cart.juspay": "enabled",
+				"lga.shots": "enabled",
+				"nav.guided": "enabled",
+				"search.additionalInfo": "test",
+				"pps": "enabled",
+				"rn.update.ios": "internal",
+				"nav.store": "disabled",
+				"search.sampling": "enabled",
+				"pdp.details": "paragraph",
+				"lgp.cardloadevent": "enabled",
+				"contactus.number": "outside",
+				"lgp.stream": "enabled",
+				"feed.algorithm.ranking": "noDecay",
+				"lgp.personalization.rollout": "enabled",
+				"lgp.rollout.ios": "enabled",
+				"lga.forum": "enabled",
+				"lgp.timeline.cardloadevent": "enabled",
+				"lgp.rollout": "enabled",
+				"d0.newuser": "enabled",
+				"lgp.stream.ios": "disabled",
+				"pdp.forum": "enabled",
+				"pdp.video": "disabled"
+			},
+			"app": {
+				"name": "MyntraRetailAndroid",
+				"build": 110107,
+				"version": "3.2.0-QA-MA-test"
+			},
+			"device": {
+				"advertising_id": "675438d9-1c4b-456f-a604-d82c46a69552",
+				"build_number": "cancro",
+				"category": "Mobile",
+				"device_id": "6458b202055249a6",
+				"device_year": 2013,
+				"device_year_type": 2,
+				"height": 1920,
+				"imei": "865072028292640",
+				"installation_id": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+				"manufacturer": "Xiaomi",
+				"model_number": "MI 3W",
+				"os": "Android",
+				"os_api_version": 19,
+				"os_version": "4.4.4",
+				"width": 1080
+			},
+			"user": {
+				"customer_id": "loadtest@myntra360.com",
+				"is_logged_in": true,
+				"prev_customer_id": "loadtest@myntra360.com",
+				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
+			},
+			"event_meta_version": "1.3.0",
+			"geo": {
+				"city": "Bengaluru",
+				"country": "India",
+				"lat": 12.90124785,
+				"long": 77.61674922,
+				"state": "Karnataka"
+			},
+			"payload": {
+				"custLogin": "loadtest@myntra360.com",
+				"category": "loadTest",
+				"isLoggedIn": true,
+				"action": "loadTest",
+				"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxIevLg",
+				"eventName": "loadTest",
+				"label": "app-launch",
+				"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+				"ruLoginID": "loadtest@myntra360.com",
+				"offset": -196,
+				"abTest": {
+					"rn.update": "internal",
+					"search.visual": "enabled",
+					"cart.juspay": "enabled",
+					"lga.shots": "enabled",
+					"nav.guided": "enabled",
+					"search.additionalInfo": "test",
+					"pps": "enabled",
+					"rn.update.ios": "internal",
+					"nav.store": "disabled",
+					"search.sampling": "enabled",
+					"pdp.details": "paragraph",
+					"lgp.cardloadevent": "enabled",
+					"contactus.number": "outside",
+					"lgp.stream": "enabled",
+					"feed.algorithm.ranking": "noDecay",
+					"lgp.personalization.rollout": "enabled",
+					"lgp.rollout.ios": "enabled",
+					"lga.forum": "enabled",
+					"lgp.timeline.cardloadevent": "enabled",
+					"lgp.rollout": "enabled",
+					"d0.newuser": "enabled",
+					"lgp.stream.ios": "disabled",
+					"pdp.forum": "enabled",
+					"pdp.video": "disabled"
+				}
+			},
+			"network": {
+				"bandwidth": "320.8626439680672",
+				"bandwidth_bucket": "MODERATE",
+				"carrier": "Vodafone IN",
+				"ip": "10.0.6.174",
+				"type": "WIFI"
+			},
+			"session": {
+				"auto_id": 783,
+				"server_offset": -196,
+				"session_id": "b6173d32-0174-4204-b0fb-fd1b83b79c3e-6458b2020552Test",
+				"session_referrer": {},
+				"start_time": 1460527812898
+			},
+			"_t": "LoadTest",
+			"time_stamp": 1460527812970,
+			"event_sequence": 0
+		}],
+		"notifications": {
+			"appLaunch": {
+				"ab_tests": {
+					"rn.update": "internal"
+				},
+				"app": {
+					"name": "MyntraRetailAndroid",
+					"build": 110107,
+					"version": "3.2.0-QA-MA-test"
+				},
+				"device": {
+					"advertising_id": "675438d9-1c4b-456f-a604-d82c46a69552",
+					"build_number": "cancro",
+					"category": "Mobile",
+					"device_id": "6458b202055249a6",
+					"device_year": 2013,
+					"device_year_type": 2,
+					"height": 1920,
+					"imei": "865072028292640",
+					"installation_id": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+					"manufacturer": "Xiaomi",
+					"model_number": "MI 3W",
+					"os": "Android",
+					"os_api_version": 19,
+					"os_version": "4.4.4",
+					"width": 1080
+				},
+				"user": {
+					"customer_id": "loadtest@myntra360.com",
+					"is_logged_in": true,
+					"prev_customer_id": "loadtest@myntra360.com",
+					"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxITest"
+				},
+				"event_meta_version": "1.3.0",
+				"geo": {
+					"city": "Bengaluru",
+					"country": "India",
+					"lat": 12.90124785,
+					"long": 77.61674922,
+					"state": "Karnataka"
+				},
+				"payload": {
+					"custLogin": "loadtest@myntra360.com",
+					"category": "loadTest",
+					"isLoggedIn": true,
+					"action": "loadTest",
+					"uidx": "0bbc146c.f825.48d2.8557.9d5150abfaab2IAIxIevLg",
+					"eventName": "loadTest",
+					"label": "app-launch",
+					"installationID": "2c721379-3b4e-34f0-a847-e3e8183f835b",
+					"ruLoginID": "loadtest@myntra360.com",
+					"offset": -196,
+					"abTest": {
+						"rn.update": "internal"
+					}
+				},
+				"network": {
+					"bandwidth": "320.8626439680672",
+					"bandwidth_bucket": "MODERATE",
+					"carrier": "Vodafone IN",
+					"ip": "10.0.6.174",
+					"type": "WIFI"
+				},
+				"session": {
+					"auto_id": 783,
+					"server_offset": -196,
+					"session_id": "b6173d32-0174-4204-b0fb-fd1b83b79c3e-6458b2020552MaTouchloadTest",
+					"session_referrer": {},
+					"start_time": 1460527812898
+				},
+				"_t": "LoadTest",
+				"time_stamp": 1460527812970,
+				"event_sequence": 0
+			},
+			"pushNotificationDismissed": {
+				"_t": "push-notification-dismissed",
+				"ab_tests": {
+					"android.helpshift": "disabled",
+					"cart.juspay": "enabled",
+					"contactus.number": "outside",
+					"d0.newuser": "enabled",
+					"ios.browse": "default",
+					"ios.profile.fab": "default",
+					"lga.forum": "disabled",
+					"lga.shots": "enabled",
+					"lgp.cardloadevent": "enabled",
+					"lgp.feed.variants": "variantB",
+					"lgp.personalization.rollout": "enabled",
+					"lgp.react.feed": "default",
+					"lgp.rollout": "enabled",
+					"lgp.rollout.ios": "enabled",
+					"lgp.stream": "enabled",
+					"lgp.stream.ios": "disabled",
+					"lgp.stream.variant": "variantC",
+					"lgp.timeline.cardloadevent": "enabled",
+					"nav.guided": "enabled",
+					"nav.links": "store",
+					"nav.store": "disabled",
+					"notification.variant": "v5",
+					"pdp.details": "table",
+					"pdp.forum": "enabled",
+					"pdp.video": "enabled",
+					"pps": "enabled",
+					"recommendations.visual": "disabled",
+					"rn.update": "default",
+					"rn.update.ios": "default",
+					"search.additionalInfo": "test",
+					"search.sampling": "enabled",
+					"search.visual": "enabled",
+					"store.variant": "store",
+					"testset": "test1",
+					"wallet": "enabled"
+				},
+				"app": {
+					"build": 4.0110133e+07,
+					"name": "MyntraRetailAndroid",
+					"react_bundle_name": "android-jsbundle-3.6.0",
+					"react_bundle_version": "2.3.0",
+					"version": "3.6.2"
+				},
+				"device": {
+					"advertising_id": "e84ca4ee-1f04-48d8-9cd3-d7cd72440456",
+					"build_number": "falcon_asia_ds",
+					"category": "Mobile",
+					"device_id": "50a7f7d88f2b491",
+					"device_year": 2011,
+					"device_year_type": 1,
+					"height": 1184,
+					"imei": "354994057487841",
+					"installation_id": "4bc465ce-c168-3078-8924-518a96727ea9",
+					"manufacturer": "motorola",
+					"model_number": "XT1033",
+					"os": "Android",
+					"os_api_version": 22,
+					"os_version": "5.1",
+					"width": 720
+				},
+				"enhanced": {
+					"campaign": "4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50",
+					"medium": "Notif",
+					"nid": "49e3a240-830c-11e6-9ba6-635e89a4f772",
+					"source": "Offers_Coupons",
+					"term": "1"
+				},
+				"event_category": "Notification",
+				"event_meta_version": "1.3.0",
+				"event_payload_version": "1.1.0",
+				"event_sequence": 1948,
+				"event_type": "entity_event",
+				"geo": {
+					"lat": 0,
+					"long": 0
+				},
+				"network": {
+					"bandwidth": "-1.0",
+					"bandwidth_bucket": "UNKNOWN",
+					"carrier": "",
+					"ip": "192.168.0.101",
+					"type": "WIFI"
+				},
+				"payload": {
+					"action_on_entity": "payload",
+					"data_set": {
+						"entity_id": "49e3a240-830c-11e6-9ba6-635e89a4f772",
+						"entity_name": "Here's the deal..",
+						"entity_optional_attributes": {
+							"isSilentPush": false,
+							"notificationId": "49e3a240-830c-11e6-9ba6-635e89a4f772",
+							"notification_class": "SALES",
+							"notification_message": "Buy 1@ 40 | Buy 2@ 50% OFF",
+							"notification_priority": 0,
+							"notification_title": "Here's the deal..",
+							"notification_type": "TRAY"
+						},
+						"entity_type": "notification"
+					}
+				},
+				"session": {
+					"auto_id": 1948,
+					"server_offset": 0,
+					"session_id": "52adfbf1-9875-4127-b6af-e85811ab067d-50a7f7d88f2b491",
+					"session_referrer": {
+						"referer": "http://www.myntra.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772",
+						"url": "http://www.myntra.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772"
+					},
+					"start_time": 1.474800084876e+12
+				},
+				"time_stamp": 1.474800084977e+12,
+				"user": {
+					"customer_id": "405fb57f.cf21.4bcd.bc25.e759d2a7cdcet8ycjmgAxk",
+					"is_logged_in": true,
+					"prev_customer_id": "405fb57f.cf21.4bcd.bc25.e759d2a7cdcet8ycjmgAxk",
+					"uidx": "405fb57f.cf21.4bcd.bc25.e759d2a7cdcet8ycjmgAxk"
+				}
+			},
+			"collapsePushNotification": {
+				"_t": "CollapsePushNotification",
+				"ab_tests": {
+					"android.helpshift": "disabled",
+					"cart.juspay": "enabled",
+					"contactus.number": "outside",
+					"d0.newuser": "enabled",
+					"ios.browse": "default",
+					"ios.profile.fab": "default",
+					"lga.forum": "disabled",
+					"lga.shots": "enabled",
+					"lgp.cardloadevent": "enabled",
+					"lgp.feed.variants": "variantB",
+					"lgp.personalization.rollout": "enabled",
+					"lgp.react.feed": "default",
+					"lgp.rollout": "enabled",
+					"lgp.rollout.ios": "enabled",
+					"lgp.stream": "enabled",
+					"lgp.stream.ios": "disabled",
+					"lgp.stream.variant": "variantC",
+					"lgp.timeline.cardloadevent": "enabled",
+					"nav.guided": "enabled",
+					"nav.links": "store",
+					"nav.store": "disabled",
+					"notification.variant": "v5",
+					"pdp.details": "table",
+					"pdp.forum": "enabled",
+					"pdp.video": "enabled",
+					"pps": "enabled",
+					"recommendations.visual": "disabled",
+					"rn.update": "default",
+					"rn.update.ios": "default",
+					"search.additionalInfo": "test",
+					"search.sampling": "enabled",
+					"search.visual": "enabled",
+					"store.variant": "store",
+					"testset": "test1",
+					"wallet": "enabled"
+				},
+				"app": {
+					"build": 4.0110133e+07,
+					"name": "MyntraRetailAndroid",
+					"react_bundle_name": "android-jsbundle-3.6.0",
+					"react_bundle_version": "2.3.0",
+					"version": "3.6.2"
+				},
+				"device": {
+					"advertising_id": "e84ca4ee-1f04-48d8-9cd3-d7cd72440456",
+					"build_number": "falcon_asia_ds",
+					"category": "Mobile",
+					"device_id": "50a7f7d88f2b491",
+					"device_year": 2011,
+					"device_year_type": 1,
+					"height": 1184,
+					"imei": "354994057487841",
+					"installation_id": "4bc465ce-c168-3078-8924-518a96727ea9",
+					"manufacturer": "motorola",
+					"model_number": "XT1033",
+					"os": "Android",
+					"os_api_version": 22,
+					"os_version": "5.1",
+					"width": 720
+				},
+				"enhanced": {
+					"campaign": "4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50",
+					"medium": "Notif",
+					"nid": "49e3a240-830c-11e6-9ba6-635e89a4f772",
+					"source": "Offers_Coupons",
+					"term": "1"
+				},
+				"event_category": "Notification",
+				"event_meta_version": "1.3.0",
+				"event_payload_version": "1.1.0",
+				"event_sequence": 1948,
+				"event_type": "entity_event",
+				"geo": {
+					"lat": 0,
+					"long": 0
+				},
+				"network": {
+					"bandwidth": "-1.0",
+					"bandwidth_bucket": "UNKNOWN",
+					"carrier": "",
+					"ip": "192.168.0.101",
+					"type": "WIFI"
+				},
+				"payload": {
+					"action_on_entity": "payload",
+					"data_set": {
+						"entity_id": "49e3a240-830c-11e6-9ba6-635e89a4f772",
+						"entity_name": "Here's the deal..",
+						"entity_optional_attributes": {
+							"isSilentPush": false,
+							"notificationId": "49e3a240-830c-11e6-9ba6-635e89a4f772",
+							"notification_class": "SALES",
+							"notification_message": "Buy 1@ 40 | Buy 2@ 50% OFF",
+							"notification_priority": 0,
+							"notification_title": "Here's the deal..",
+							"notification_type": "TRAY"
+						},
+						"entity_type": "notification"
+					}
+				},
+				"session": {
+					"auto_id": 1948,
+					"server_offset": 0,
+					"session_id": "52adfbf1-9875-4127-b6af-e85811ab067d-50a7f7d88f2b491",
+					"session_referrer": {
+						"referer": "http://www.myntra.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772",
+						"url": "http://www.myntra.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772"
+					},
+					"start_time": 1.474800084876e+12
+				},
+				"time_stamp": 1.474800084977e+12,
+				"user": {
+					"customer_id": "405fb57f.cf21.4bcd.bc25.e759d2a7cdcet8ycjmgAxk",
+					"is_logged_in": true,
+					"prev_customer_id": "405fb57f.cf21.4bcd.bc25.e759d2a7cdcet8ycjmgAxk",
+					"uidx": "405fb57f.cf21.4bcd.bc25.e759d2a7cdcet8ycjmgAxk"
+				}
+			},
+			"pushNotificationCapped": {
+				"_t": "push-notification-capped",
+				"ab_tests": {
+					"android.helpshift": "disabled",
+					"cart.juspay": "enabled",
+					"contactus.number": "outside",
+					"d0.newuser": "enabled",
+					"ios.browse": "default",
+					"ios.profile.fab": "default",
+					"lga.forum": "disabled",
+					"lga.shots": "enabled",
+					"lgp.cardloadevent": "enabled",
+					"lgp.feed.variants": "variantB",
+					"lgp.personalization.rollout": "enabled",
+					"lgp.react.feed": "default",
+					"lgp.rollout": "enabled",
+					"lgp.rollout.ios": "enabled",
+					"lgp.stream": "enabled",
+					"lgp.stream.ios": "disabled",
+					"lgp.stream.variant": "variantC",
+					"lgp.timeline.cardloadevent": "enabled",
+					"nav.guided": "enabled",
+					"nav.links": "store",
+					"nav.store": "disabled",
+					"notification.variant": "v5",
+					"pdp.details": "table",
+					"pdp.forum": "enabled",
+					"pdp.video": "enabled",
+					"pps": "enabled",
+					"recommendations.visual": "disabled",
+					"rn.update": "default",
+					"rn.update.ios": "default",
+					"search.additionalInfo": "test",
+					"search.sampling": "enabled",
+					"search.visual": "enabled",
+					"store.variant": "store",
+					"testset": "test1",
+					"wallet": "enabled"
+				},
+				"app": {
+					"build": 4.0110133e+07,
+					"name": "MyntraRetailAndroid",
+					"react_bundle_name": "android-jsbundle-3.6.0",
+					"react_bundle_version": "2.3.0",
+					"version": "3.6.2"
+				},
+				"device": {
+					"advertising_id": "e84ca4ee-1f04-48d8-9cd3-d7cd72440456",
+					"build_number": "falcon_asia_ds",
+					"category": "Mobile",
+					"device_id": "50a7f7d88f2b491",
+					"device_year": 2011,
+					"device_year_type": 1,
+					"height": 1184,
+					"imei": "354994057487841",
+					"installation_id": "4bc465ce-c168-3078-8924-518a96727ea9",
+					"manufacturer": "motorola",
+					"model_number": "XT1033",
+					"os": "Android",
+					"os_api_version": 22,
+					"os_version": "5.1",
+					"width": 720
+				},
+				"enhanced": {
+					"campaign": "4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50",
+					"medium": "Notif",
+					"nid": "49e3a240-830c-11e6-9ba6-635e89a4f772",
+					"source": "Offers_Coupons",
+					"term": "1"
+				},
+				"event_category": "Notification",
+				"event_meta_version": "1.3.0",
+				"event_payload_version": "1.1.0",
+				"event_sequence": 1948,
+				"event_type": "entity_event",
+				"geo": {
+					"lat": 0,
+					"long": 0
+				},
+				"network": {
+					"bandwidth": "-1.0",
+					"bandwidth_bucket": "UNKNOWN",
+					"carrier": "",
+					"ip": "192.168.0.101",
+					"type": "WIFI"
+				},
+				"payload": {
+					"action_on_entity": "payload",
+					"data_set": {
+						"entity_id": "49e3a240-830c-11e6-9ba6-635e89a4f772",
+						"entity_name": "Here's the deal..",
+						"entity_optional_attributes": {
+							"isSilentPush": false,
+							"notificationId": "49e3a240-830c-11e6-9ba6-635e89a4f772",
+							"notification_class": "SALES",
+							"notification_message": "Buy 1@ 40 | Buy 2@ 50% OFF",
+							"notification_priority": 0,
+							"notification_title": "Here's the deal..",
+							"notification_type": "TRAY"
+						},
+						"entity_type": "notification"
+					}
+				},
+				"session": {
+					"auto_id": 1948,
+					"server_offset": 0,
+					"session_id": "52adfbf1-9875-4127-b6af-e85811ab067d-50a7f7d88f2b491",
+					"session_referrer": {
+						"referer": "http://www.myntra.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772",
+						"url": "http://www.myntra.com/buyoneat40-buytwoat50-25sep?utm_source=Offers_Coupons\u0026utm_medium=Notif\u0026utm_term=1\u0026utm_campaign=4PM_25SEP2016_Y_SEG_30_21_ANDROID_OffersCoupons_Extra50\u0026utm_nid=49e3a240-830c-11e6-9ba6-635e89a4f772"
+					},
+					"start_time": 1.474800084876e+12
+				},
+				"time_stamp": 1.474800084977e+12,
+				"user": {
+					"customer_id": "405fb57f.cf21.4bcd.bc25.e759d2a7cdcet8ycjmgAxk",
+					"is_logged_in": true,
+					"prev_customer_id": "405fb57f.cf21.4bcd.bc25.e759d2a7cdcet8ycjmgAxk",
+					"uidx": "405fb57f.cf21.4bcd.bc25.e759d2a7cdcet8ycjmgAxk"
+				}
+			}
+		}
+	}
+}

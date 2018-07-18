@@ -1,0 +1,127 @@
+package touchloader
+
+import (
+	"fmt"
+	"net/http"
+	"io/ioutil"
+	"os"
+	"time"
+	"sync/atomic"
+	"strings"
+	"encoding/json"
+	"bytes"
+	"compress/gzip"
+)
+
+var Counter2xx uint64 = 0
+var CounterNon2xx uint64 = 0
+var req *http.Request
+
+/* 	Get the 2xx counter
+	*/
+func GetCounter2xx() (uint64) {
+	return atomic.LoadUint64(&Counter2xx)
+}
+
+
+/* 	Get the Non-2xx counter
+	*/
+func GetCounterNon2xx() (uint64) {
+	return atomic.LoadUint64(&CounterNon2xx)
+}
+
+
+/*	# Does the following actions
+	- Reset event counts (application when runmode=test)
+	- Post events
+	*/
+func ResetPoster(maTrackingUrl string, runMode string, payload interface{}, compression string) {
+	if (strings.ToLower(runMode) == "test") {
+		// Reset event counter
+		resetUrl := "http://localhost:8080/springwebeg/track/reset"
+		ExecGetUri(resetUrl)
+	}
+
+	for {
+		Poster(maTrackingUrl, payload, compression)
+
+		if (strings.ToLower(runMode) == "test") {
+			time.Sleep(time.Second * 2)        // comment this in realtime
+		}
+	}
+}
+
+
+/*	Poster method to start hitting post requests
+ 	*/
+func Poster(maTrackingUrl string, payload interface{}, compression string) {
+	marshalledJson, _ := json.Marshal(payload)
+	rawJsonPayload := string(marshalledJson)
+
+	var err error
+	if (compression == "gzip") {	// if request is for gzip based compression payload
+		var buf bytes.Buffer
+		writerObj := gzip.NewWriter(&buf)
+
+		_, err := writerObj.Write([]byte(rawJsonPayload))
+		if err != nil {
+			fmt.Println(err)
+			return!
+
+		}
+
+		if err = writerObj.Close(); err != nil {
+			fmt.Println(err)
+			return
+		}
+
+		// send out request
+		req, err = http.NewRequest("POST", maTrackingUrl, &buf)
+		req.Header.Set("Content-Encoding", "gzip")
+
+	} else {	// send out plain request
+		var jsonStr = []byte(string(rawJsonPayload))
+		req, err = http.NewRequest("POST", maTrackingUrl, bytes.NewBuffer(jsonStr))
+		req.Header.Set("Content-Type", "application/json")
+	}
+
+	client := &http.Client{}
+	resp, err := client.Do(req)
+
+	if err != nil {
+		atomic.AddUint64( &CounterNon2xx, 1 )
+		return
+	}
+
+	statusCode := resp.StatusCode
+	if (statusCode == 200) {
+		atomic.AddUint64( &Counter2xx, 1 )
+	} else {
+		atomic.AddUint64( &CounterNon2xx, 1 )
+	}
+
+	defer resp.Body.Close()
+}
+
+
+/* 	Hitting GET requests
+	*/
+func ExecGetUri(URL string) (string) {
+	resp, err := http.Get(URL)
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+	defer resp.Body.Close()
+
+	htmlData, err := ioutil.ReadAll(resp.Body) //<--- here!
+
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+
+	// print out
+	//fmt.Println("EventsCount:=", string(htmlData))
+	return string(htmlData)
+}
